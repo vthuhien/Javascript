@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+
+body{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #4daf54, #3d8888);
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    color: white;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: black;
+}
+.card_avt{
+    width: 190px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    background-color: aliceblue;
+    margin-left: 50px;
+    border: 3px solid #4daf54;
+}
+
+.name{
+    margin-top: 10px;
+
+    margin-left: 65px ;
+    font-size: 30px;
+}
+
+.descript{
+    margin-left:  55px;
+    
+    color: #2fb484;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+    padding: 2px 5px;
+   
+    align-items: center;
+    display: flex;
+    margin: 50px 0;
+}
+
+ .phone, .zalo, .tele, .dis{
+    margin-left: -10px;
+    margin-right: 80px;
+    align-items: center;
+    display: flex;
+    
+ }
+
+ .phone:hover{
+    outline:1px outset  #0c572e  ;
+    transition: 0.3s;
+
+ }
+ .zalo:hover{
+    outline:1px outset  #0c572e  ;
+    transition: 0.3s;
+
+ }
+ .tele:hover{
+    outline:1px outset  #0c572e  ;
+    transition: 0.3s;
+
+ }
+ .dis:hover{
+    outline:1px outset  #0c572e  ;
+    transition: 0.3s;
+
+ }
+
+ .more button{
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    width: 125px;
+    height: 50px;
+    border: none;
+    outline: 2px solid #2fb484;
+    color: aliceblue;
+    margin: 0 10px;
+ }
+ .more button:hover{
+    background:#0c572e ;
+    transition: 0.3s;
+ }
